@@ -7,6 +7,11 @@ go get -u github.com/zhangxichun/cloudutils/oss
 
 ## Getting Started
 
+Import `github.com/zhangxichun/cloudutils/oss` package.
+```golang
+import "github.com/zhangxichun/cloudutils/oss"
+```
+
 Use `oss.Client` interface type
 ```golang
 var ossClient oss.Client
@@ -14,7 +19,7 @@ var ossClient oss.Client
 
 Create new oss clinet
 ```golang
-ossConfig := oss.Config{
+ossConfig = oss.Config{
     Endpoint:        "Your endpoint",    // ex. oss-cn-shanghai.aliyuncs.com
     BucketName:      "Your bucket name", // ex. web-static-files
     RootDir:         "Your root dir",    // ex. fos

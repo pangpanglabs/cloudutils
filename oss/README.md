@@ -1,15 +1,15 @@
 # cloudutils/oss
 
-Install `github.com/zhangxichun/cloudutils/oss` package.
+Install `github.com/pangpanglabs/cloudutils/oss` package.
 ```golang
-go get -u github.com/zhangxichun/cloudutils/oss
+go get -u github.com/pangpanglabs/cloudutils/oss
 ```
 
 ## Getting Started
 
-Import `github.com/zhangxichun/cloudutils/oss` package.
+Import `github.com/pangpanglabs/cloudutils/oss` package.
 ```golang
-import "github.com/zhangxichun/cloudutils/oss"
+import "github.com/pangpanglabs/cloudutils/oss"
 ```
 
 Use `oss.Client` interface type

@@ -1,4 +1,4 @@
-# goutils/cache
+# cloudutils/oss
 
 Install `github.com/zhangxichun/cloudutils/oss` package.
 ```golang

@@ -32,8 +32,8 @@ func New(ossConfig Config) (ossClient Client, err error) {
 			return
 		}
 		return
-	} else if strings.Contains(ossConfig.Endpoint, "aliyuncs.com") {
-		ossClient = &AliyunOss{}
+	} else if strings.Contains(ossConfig.Endpoint, "myhuaweicloud.com") {
+		ossClient = &HuaweiOss{}
 		if err = ossClient.init(ossConfig); err != nil {
 			return
 		}
